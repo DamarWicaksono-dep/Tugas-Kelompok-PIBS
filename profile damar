@@ -1,0 +1,136 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Damar Wicaksono</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin-bottom: 10px;
+        }
+
+        .profile {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .profile img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #333;
+        }
+
+        .data {
+            line-height: 1.8;
+        }
+
+        .data h2 {
+            margin-bottom: 10px;
+        }
+
+        .about {
+            margin-top: 30px;
+            line-height: 1.7;
+        }
+
+        .about h2 {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        @media (max-width: 600px) {
+            .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Profil Mahasiswa</h1>
+            <p>Program Studi Sistem Informasi</p>
+        </div>
+
+        <div class="profile">
+
+            <img src="profile.jpeg" alt="Foto Profil">
+
+            <div class="data">
+                <h2>Damar Wicaksono</h2>
+
+                <p><strong>NIM:</strong> 2025081023</p>
+                <p><strong>Program Studi:</strong> Sistem Informasi</p>
+                <p><strong>Universitas:</strong> Universitas Pembangunan Jaya</p>
+                <p><strong>Email:</strong> damarwicaksono741@gmail.com</p>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <h2>Tentang Saya</h2>
+
+            <p>
+                Halo, saya Damar Wicaksono, mahasiswa Program Studi Sistem Informasi
+                Universitas Pembangunan Jaya. Saya tertarik pada bidang teknologi,
+                pengembangan website, dan sistem informasi. Saya sedang mempelajari
+                HTML, CSS, JavaScript, serta berbagai teknologi lainnya dalam
+                pengembangan aplikasi.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Damar Wicaksono</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
